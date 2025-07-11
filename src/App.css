@@ -1,0 +1,17 @@
+#root {
+  padding-top: 1vh;
+  padding-left: 1vh;
+  padding-right: 1vh;
+  text-align: center;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #001020;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+

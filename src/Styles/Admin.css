@@ -1,0 +1,24 @@
+.nota{
+    font-size: 2em;
+    font-weight: 700;
+    margin-top: 20px;
+    color: #ffffff;
+}
+.admin-container{
+    width: 100%;
+    height: 60vh;
+}
+.seleccion-btn{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.buttom-detail{
+    background-color: #008fbb;
+    border-color: black;
+    color: black;
+    border-radius: 15px;
+}
+.buttom-detail:hover{
+    color:#ffffff;
+}

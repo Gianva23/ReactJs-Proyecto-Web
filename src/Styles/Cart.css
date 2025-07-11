@@ -1,0 +1,167 @@
+.carrito-conteiner {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.carrito-titulos {
+    background-color: #008fbb;
+    color: white;
+    padding: 10px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+}
+.carrito-titulo{
+    margin: 0;
+}
+
+/*--------------------Tarjetas carrito--------------------------*/
+.carrito-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #f1faff;
+    border: 1px solid #c4ecff;
+    border-radius: 15px;
+    padding: 15px;
+    width: 95%;
+    max-width: 1200px;
+    gap: 15px;
+    position: relative;
+}
+.carrito-info {
+    display: flex;
+    align-items: center;
+    gap: 4vw;
+    padding-right: 4vw;
+}
+.carrito-textos-nombre{
+    display: flex;
+    justify-content: flex-start;
+}
+.carrito-textos-descripcion{
+    display: flex;
+    justify-content: flex-start;
+    margin: 5px;
+    font-size: 0.9em;
+    color: black;
+}
+.carrito-imagen {
+    min-width: 100px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #008fbb;
+}
+.carrito-textos h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #001020;
+}
+.carrito-datos {
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    gap: 20px;
+    flex-wrap: wrap;
+    font-size: 0.95em;
+    color: #000;
+}
+.boton-elimina {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: red;
+    border: none;
+    color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 8px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+.boton-elimina:hover {
+    transform: scale(1.1);
+    background-color: darkred;
+}
+@media (max-width: 768px) {
+    .carrito-imagen {
+        min-width: 70px;
+        width: 70px;
+        height: 70px;
+    }
+    .carrito-textos-descripcion{
+        display: none;
+    }
+}
+@media (max-width: 450px) {
+    .carrito-textos-nombre{
+        display: flex;
+        justify-content: flex-start;
+        max-width: 200px;
+    }
+}
+
+/*--------------------Total a pagar--------------------------*/
+.card-total {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    background-color: #008fbb;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 15px;
+    font-size: 1.2em;
+    gap: 20px;
+}
+.card-total-precio{
+    font-size: 1.2em;
+    display: flex;
+    align-items: baseline;
+    font-weight: bold;
+}
+.card-total button {
+    background-color: #00cc88;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+.card-total button:hover {
+    background-color: #00aa66;
+}
+.container-boton-vaciar{
+    width: 95%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10wwwpx;
+}
+.boton-vaciar {
+    background-color: #dc3545;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+.boton-vaciar:hover {
+    background-color: #c82333;
+}
+@media (max-width: 450px) {
+    .card-total {
+        font-size: 1em;
+    }
+}
