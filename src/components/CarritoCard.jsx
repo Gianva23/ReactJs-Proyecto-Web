@@ -1,4 +1,4 @@
-import "../styles/Cart.css"
+import "../Styles/Cart.css"
 function CarritoCard({ producto, funcionDisparadora }) {
     function borrarDelCarrito() {
         funcionDisparadora(producto.id);
